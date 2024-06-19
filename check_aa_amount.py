@@ -45,4 +45,4 @@ for aa, percentage in amino_acid_percentage.items():
 # Additional: Print any missing amino acids
 missing_amino_acids = set('ACDEFGHIKLMNPQRSTVWY') - set(amino_acid_count.keys())
 if missing_amino_acids:
-    print(f"Missing amino acids: {', '.join(
+    print(f"Missing amino acids: {', '.join(missing_amino_acids)}")
