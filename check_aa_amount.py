@@ -3,7 +3,7 @@ from Bio.SeqUtils import seq1
 from collections import Counter
 
 # List of PDB IDs
-pdb_ids = ["2J4A", "1UBQ", "2POR", "1AKE", "1CLL"]
+pdb_ids = ["2J4A", "1UBQ", "1J4N", "1Z83", "1LIN"]
 
 # Initialize the PDB parser
 parser = PDBParser(QUIET=True)
