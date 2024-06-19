@@ -19,3 +19,6 @@ gmx genion -s ions.tpr -o solv_ions.gro -p topol.top -pname NA -nname CL -neutra
 #endif
 
 "
+
+
+
