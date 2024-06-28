@@ -22,3 +22,11 @@ gmx genion -s ions.tpr -o solv_ions.gro -p topol.top -pname NA -nname CL -neutra
 
 
 
+"""
+import pickle
+
+# Save the history object to a file
+with open('training_history.pkl', 'wb') as file:
+    pickle.dump(history.history, file)
+"""
+
